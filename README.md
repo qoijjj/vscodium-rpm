@@ -1,2 +1,3 @@
 # vscodium-rpm
-WIP
+
+vscodium spec for copr
