@@ -1,3 +1,3 @@
 # vscodium-rpm
 
-vscodium repo
+vscodium spec for copr
