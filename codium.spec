@@ -24,8 +24,8 @@ Requires:		at-spi2-atk cairo expat gtk3 xrandr mesa-libgbm nspr nss nss-util xdg
 BuildRequires:	rpm_macro(fdupes)
 
 %description
-VSCodium is a new choice of tool that combines the simplicity of a code editor
-with what developers need for the core edit-build-debug cycle.
+VSCodium is a new choice of tool that combines the simplicity of a code 
+editor with what developers need for the core edit-build-debug cycle.
 
 %prep
 tar xf %SOURCE0
