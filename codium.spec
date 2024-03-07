@@ -5,19 +5,13 @@
 %global __requires_exclude libffmpeg.so
 %global __provides_exclude_from %{_datadir}/%{name}/.*\\.so
 
-%ifarch x86_64
-%define a x64
-%elifarch aarch64
-%define a arm64
-%endif
-
 Name:			codium
 Version:		1.87.0.24060
 Release:		1%?dist
 Summary:		Code editing. Redefined.
 License:		MIT
 URL:			https://vscodium.com/
-Source0:		https://github.com/VSCodium/vscodium/releases/download/%version/VSCodium-linux-%a-%version.tar.gz
+Source0:		https://github.com/VSCodium/vscodium/releases/download/%version/VSCodium-linux-x64-%version.tar.gz
 Source1:		https://raw.githubusercontent.com/VSCodium/vscodium/%version/README.md
 Source2:		https://raw.githubusercontent.com/VSCodium/vscodium/%version/LICENSE
 Requires:		at-spi2-atk cairo expat gtk3 xrandr mesa-libgbm nspr nss nss-util xdg-utils
