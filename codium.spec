@@ -13,7 +13,7 @@
 
 Name:			codium
 Version:		1.87.0.24060
-Release:		1%{?dist}
+Release:		1%?dist
 Summary:		Code editing. Redefined.
 License:		MIT
 URL:			https://vscodium.com/
