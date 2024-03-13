@@ -6,7 +6,7 @@
 %global __provides_exclude_from %{_datadir}/%{name}/.*\\.so
 
 Name:			codium
-Version:		1.87.0.24060
+Version:		1.87.2.24072
 Release:		1%?dist
 Summary:		Code editing. Redefined.
 License:		MIT
